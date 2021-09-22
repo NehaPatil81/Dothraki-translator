@@ -1,0 +1,77 @@
+body{
+  margin: 0;
+  background: black;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+.container{
+display: flex;
+flex-direction: column;
+max-width: 100%;
+align-items: center;
+margin: auto;
+}
+.adjust{
+margin: 9rem 3rem;
+}
+.user-input,.output{
+  height: 15vh;
+  width: 70%;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1rem;
+  border: 2px solid #9b2e0a;
+  background-color: transparent;
+  color: #ef9273;
+  font-weight: bold;
+  
+}
+.screen {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  
+}
+.left{
+margin: 11rem 3rem;
+left: 0;
+background: url("Dothraki-language.jpg") no-repeat;
+}
+.right {
+  right: 0;
+}
+.header{
+  text-align: center;
+  color: #ef9273;
+  max-width: 80%;
+  margin: auto;
+}
+
+#translate-btn{
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  background-color: #c73404;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+i{
+  color: #c73404;
+  font-size: 2.5rem;
+}
+
+.list-item-inline{
+  display: inline;
+  list-style: none;
+  padding: 1.5rem;
+}
+
+.footer{
+margin-top: 28rem;
+text-align: center;  
+}
